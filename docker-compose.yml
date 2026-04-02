@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  cowrie:
+    image: cowrie/cowrie
+    container_name: cowrie_honeypot
+    ports:
+      - "2222:2222"
+    volumes:
+      - ./logs:/cowrie/cowrie-git/var/log/cowrie
+    restart: always
