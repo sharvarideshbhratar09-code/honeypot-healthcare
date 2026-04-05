@@ -126,3 +126,6 @@ Do not deploy this system on production networks without proper authorization.
 * Improved visualization of logs
 
 ---
+##UPDATE 
+- Added honeypot environment setup
+- Improved logging mechanism 
