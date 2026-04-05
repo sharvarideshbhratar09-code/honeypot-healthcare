@@ -129,3 +129,6 @@ Do not deploy this system on production networks without proper authorization.
 ##UPDATE 
 - Added honeypot environment setup
 - Improved logging mechanism 
+ ## OUTPUT 
+- Displays attackers IPs
+- Shows executed commonds 
